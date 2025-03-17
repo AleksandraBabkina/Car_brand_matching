@@ -1,6 +1,8 @@
 # Car_brand_matching
 ## Description
-This script is designed to match car model names between two datasets, performing fuzzy matching and updating relevant categories based on matched data. It pulls data from an Oracle database, applies fuzzy matching to identify similar car model names, and then updates categories for matching entries. This process helps standardize and enrich data by ensuring that car models from one dataset are correctly linked to their categories from another dataset. The script enhances the quality and consistency of automotive-related data for further analysis or reporting.
+This script enhances the consistency and accuracy of automotive datasets by matching car model names from two sources: raw model data and a reference dataset with car models and categories. The goal is to ensure correct classification of car models based on a predefined mapping.
+
+In automotive data analysis, consistency across datasets is crucial for accurate decision-making and data quality. The script uses fuzzy string matching to resolve discrepancies in naming conventions, such as brand variations, regional differences, and typographical errors. This approach ensures that even slightly different versions of the same model are correctly linked.
 
 ## Functional Description
 The script performs the following key operations:
